@@ -1,0 +1,97 @@
+@import url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+  background-color: #5B9FB4;
+  margin: 0 auto;
+}
+
+.center{
+  padding: 30% 0%;
+}
+.randomSearch a{
+  text-decoration: none;
+  color: #fff!important;
+}
+.search{
+  font-size: 50px;
+  color: #fff;
+}
+
+.info{
+ font-size: 25px;
+  color: #fff;
+  margin-top: 1%;
+}
+
+.randomSearch{
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.searching {
+display: none;
+}
+
+.input-group{
+  height: 45px;
+}
+
+.go{
+  font-size: 15px;
+}
+
+.form-control{
+  border: 0px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.go{
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+p{
+ display: block;
+}
+
+.contentBox{
+  padding: 5px;
+  background-color: #fff;
+  margin: 5px;
+  cursor: pointer;
+  display: block;
+  border-left: 5px solid #fff;
+}
+
+.contentBox:hover{
+  border-left: 5px solid orange;
+}
+
+.link{
+  text-decoration: none;
+  color: #000;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+a:-webkit-any-link{
+  text-decoration: none;
+  color: #000;
+}
+
+footer{
+  position: relative;
+  bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  left: 0;
+  right: 0;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
